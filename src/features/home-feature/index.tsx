@@ -1,4 +1,3 @@
-import React from 'react'
 import { HomeFeatureContainer } from './style'
 
 function HomeFeature() {

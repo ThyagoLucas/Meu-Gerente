@@ -1,4 +1,3 @@
-import React from 'react'
 import { ClientContainer } from './style'
 
 function Clients() {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavbarContainer } from './style'
 import { SCREENS } from '../../../../utils/screens'
 import { useLocation, useNavigate } from 'react-router-dom'

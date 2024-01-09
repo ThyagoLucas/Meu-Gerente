@@ -10,8 +10,12 @@ export const NavbarContainer = styled.nav`
     justify-content: space-around;
 
     .selected{
-        color: #028E19;
+        color: ${ (props) => props.theme.navbar.color.selected };
     }
-
+    
+    @media (min-width: ${(props) => props.theme.breakpoints.values.sm}px) {
+        max-width:20% ;
+        
+    }
 
 `
